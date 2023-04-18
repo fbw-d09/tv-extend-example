@@ -43,6 +43,8 @@ class TV {
   console.log(tv.resetTV());
   console.log(tv.getTVstatus());
 
+// **********************************************************************************
+
 //   Example mit extend Parent Class 
 
   class AwsomeTV extends TV{
@@ -56,5 +58,8 @@ class TV {
 
 const modernTV = new AwsomeTV()
 console.log(modernTV.letTVTalk("Hi there, how are you doing?"));
+
+// **********************************************************************************
+
 console.log("welche Properties hat der moderneTV alle übernommen", modernTV);
 // Outcome => { brand: undefined, channel: 50, volume: 1 }
